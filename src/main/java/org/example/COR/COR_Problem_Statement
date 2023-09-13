@@ -1,0 +1,9 @@
+Purchase Approval Workflow
+Suppose we have a purchase approval workflow where employees can request purchases, and these requests must be approved by different managers based on the purchase amount. The approval hierarchy is as follows:
+
+Employee (can make requests)
+Team Lead (can approve up to $1,000)
+Manager (can approve up to $5,000)
+Director (can approve any amount)
+
+We'll implement this workflow using the Chain of Responsibility pattern:

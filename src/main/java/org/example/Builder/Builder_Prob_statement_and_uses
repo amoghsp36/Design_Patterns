@@ -1,0 +1,10 @@
+Let's say we want to create a Computer object with various optional components like a CPU, RAM, storage,
+graphics card, and an operating system. We'll use the Builder Pattern to construct the Computer object.
+
+Step-1
+
+The Builder Pattern allows for clear and fluent construction of complex objects,
+especially when there are many optional components or configurations.
+It also ensures that the Computer object remains immutable after construction,
+which can be valuable in certain scenarios.
+
