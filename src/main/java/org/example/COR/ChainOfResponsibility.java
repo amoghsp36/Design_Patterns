@@ -19,6 +19,3 @@ public class ChainOfResponsibility implements PurchaseHandler{
         }
     }
 }
-
-
-//#session-location > ul > li:nth-child(5)
